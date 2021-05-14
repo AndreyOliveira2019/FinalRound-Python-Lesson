@@ -68,6 +68,55 @@ a.transpose()
 
 #ITEM 3b - Somar toda a matriz:
 
+import numpy as np
+
+a = np.array([(1, 2, 3, 4, 5, 6, 7),(8, 9, 10, 11, 12, 13, 14),(15, 16, 17, 18, 19, 20, 21),(22, 23, 24, 25, 26, 27, 28),(29, 30, 31, 32, 33, 34, 35)]) 
+
+
+a.sum()
+
+
+#ITEM 3c - Somar todas as colunas:
+
+import numpy as np
+
+a = np.array([(1, 2, 3, 4, 5, 6, 7),(8, 9, 10, 11, 12, 13, 14),(15, 16, 17, 18, 19, 20, 21),(22, 23, 24, 25, 26, 27, 28),(29, 30, 31, 32, 33, 34, 35)]) 
+
+
+a.sum(axis=0)
+
+
+
+#ITEM 3d - Somar todas as linhas:
+
+import numpy as np
+
+a = np.array([(1, 2, 3, 4, 5, 6, 7),(8, 9, 10, 11, 12, 13, 14),(15, 16, 17, 18, 19, 20, 21),(22, 23, 24, 25, 26, 27, 28),(29, 30, 31, 32, 33, 34, 35)]) 
+
+
+a.sum(axis=1)
+
+#ITEM 3e - Retorne o maior valor:
+
+import numpy as np
+
+a = np.array([(1, 2, 3, 4, 5, 6, 7),(8, 9, 10, 11, 12, 13, 14),(15, 16, 17, 18, 19, 20, 21),(22, 23, 24, 25, 26, 27, 28),(29, 30, 31, 32, 33, 34, 35)]) 
+
+
+a.max()
+
+#ITEM 3f - Retorne o menor valor:
+
+import numpy as np
+
+a = np.array([(1, 2, 3, 4, 5, 6, 7),(8, 9, 10, 11, 12, 13, 14),(15, 16, 17, 18, 19, 20, 21),(22, 23, 24, 25, 26, 27, 28),(29, 30, 31, 32, 33, 34, 35)]) 
+
+
+a.min()
+
+
+#ITEM 4 - Crie uma matriz nxn (n=5). Agora some essa matriz com a matriz do exercício 3.
+
 
 
 
