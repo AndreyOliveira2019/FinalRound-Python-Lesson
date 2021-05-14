@@ -117,6 +117,18 @@ a.min()
 
 #ITEM 4 - Crie uma matriz nxn (n=5). Agora some essa matriz com a matriz do exercício 3.
 
+#ENGRAÇADÃO HEIN PROFESSOR KKKKK (Eu puto depois de duas horas procurando como somar :( )
+
+
+#ITEM 5 - crie um array de números que vai de 0 a 1000:
+a = np.arange(1001)
+print(a)
+
+
+#ITEM 6 - crie uma matriz só de zeros:
+a = np.array([(0, 0, 0, 0, 0, 0, 0),(0, 0, 0, 0, 0, 0, 0)])
+print(a)
+
 
 
 
