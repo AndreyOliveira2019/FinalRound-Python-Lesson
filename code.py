@@ -10,7 +10,7 @@ lista.remove('dois')
 soma_da_lista = 0
 for lista in lista:
     soma_da_lista += lista  
-media_da_lista = soma_da_lista / 9
+media_da_lista = soma_da_lista / 11
 print(media_da_lista)
 
 
